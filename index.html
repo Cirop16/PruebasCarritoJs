@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>FuncionalidadCarritoDeCompras</title>
+</head>
+<body>
+    <h1>Lista de Productos</h1>
+
+    <ul>
+      <li>Relog int.: $100</li>
+      <li>Tablet: $200</li>
+      <li>Celular: $300</li>
+      <li>Computadora: $400</li>
+      <li>Televisior: $500</li>
+    </ul>
+    
+
+    <h2>Carrito de compras</h2>
+
+    <button onclick="agregarProducto()">Agregar producto</button>
+    <button onclick="mostrarCarrito()">Mostrar carrito</button>
+    <button onclick="limpiarCarrito()">Limpiar carrito</button>
+
+<table id="tablaCarrito">
+    <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+    </tr>
+</table>
+
+
+
+<script src="./js/index.js"></script>
+
+</body>
+</html>

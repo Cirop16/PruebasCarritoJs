@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2 {
+    color: orange;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+li {
+    padding: 10px;
+    border-bottom: 1px solid white;
+    color: green; 
+}
+button {
+    display: block;
+    width: 200px;
+    height: 25px;
+    margin: 20px auto;
+    background-color:green;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:orange; 
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+    color:green;
+}
+th {
+    background-color: orange; 
+    color: white;
+}
